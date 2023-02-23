@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+}
+
+.navbar {
+  background-color: rgb(4, 4, 39);
+  backdrop-filter: blur(50px);
+  width: 100%;
+  height: 84px;
+  padding: 20px 200px;
+  display: flex;
+  flex-direction: row;
+}
+.navbar .nav__logo {
+  display: flex;
+  flex-direction: row;
+}
+.navbar .nav__logo img {
+  width: 39px;
+  height: 44px;
+}
+.navbar .nav__logo h1 {
+  color: white;
+  font-size: 28px;
+  font-family: Inter;
+  margin: 2px 20px;
+}
+.navbar .nav__links ul {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+.navbar .nav__links ul li {
+  width: 50px;
+  list-style: none;
+  margin-left: 70px;
+}
+.navbar .nav__links ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+.navbar .nav__links ul li a:hover {
+  color: #0fae96;
+}
+.navbar .nav__options {
+  display: flex;
+  align-items: center;
+  margin-left: 230px;
+  background-color: transparent;
+}
+.navbar .nav__options select {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 18px;
+}
+.navbar .nav__options select option {
+  background-color: transparent;
+}
+.navbar .nav__icons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 150px;
+}
+.navbar .nav__icons img {
+  margin-left: 10px;
+  width: 35px;
+}
+
+.main {
+  background-image: url(images/unsplash__AjqGGafofE.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(1px);
+  width: 100%;
+  height: 600px;
+}
+
+/*# sourceMappingURL=style.css.map */
